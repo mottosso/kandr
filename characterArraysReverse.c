@@ -15,9 +15,7 @@ int main() {
     length = 0;
 
     while ((length = getline2(line, MAX_LINE_LENGTH)) >= 0) {
-        // printf("Reversing: %s\n", line);
         reverse(line, length);
-        // printf("Reversed:  %s\n", line);
         printf("%s\n", line);
     }
 
